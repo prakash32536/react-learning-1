@@ -1,13 +1,16 @@
 import React from 'react';
+import Button from './Button';
+import Heading from './Heading';
 
 
 const Introduction = () => {
    return(
-    <div>
-    <h1> This is the introduction </h1>
-    </div>
+      <div>
+        <Heading/>
+        <Button/>
+        </div>
    )
 }
 
 
-export default Introduction
+export default Introduction ;
